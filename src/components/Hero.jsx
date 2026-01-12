@@ -46,7 +46,7 @@ export function Hero() {
             </span>
           </h1>
           <TypeWriterText 
-            text="Your daily goals are set. You have 3 lessons pending in Design and 1 in Development." 
+            text="Your daily goals are set. You have 3 lessons pending in Design and 2 in Development." 
             className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-xl mx-auto" 
             delay={1}
           />

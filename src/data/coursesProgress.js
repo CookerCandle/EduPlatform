@@ -8,6 +8,10 @@ export const coursesProgress = [
         progress: 70,
     },
     {
+        id: 7,
+        progress: 20,
+    },
+    {
         id: 11,
         progress: 0,
     }
