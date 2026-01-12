@@ -78,7 +78,7 @@ export default function MainLayout() {
         </header>
 
         {/* Контент под кнопками */}
-        <main className="pt-0">
+        <main className="p-4  pt-0">
           <Outlet />
         </main>
       </div>
