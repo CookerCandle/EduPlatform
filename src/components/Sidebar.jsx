@@ -14,7 +14,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 const navItems = [
   { id: 'home', icon: HiHome, label: 'Journal', color: '#FF8A80', path: '/home' },
   { id: 'courses', icon: HiBookOpen, label: 'Courses', color: '#82B1FF', path: '/courses' },
-  { id: 'schedule', icon: HiCalendar, label: 'Schedule', color: '#FFD54F', path: '/schedules' },
+  { id: 'schedule', icon: HiCalendar, label: 'Schedule', color: '#FFD54F', path: '/schedule' },
 ];
 
 export default function Sidebar({ onNavigate }) {
