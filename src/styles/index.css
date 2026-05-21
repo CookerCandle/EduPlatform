@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
+
+:root[data-theme="light"] {
+    --blocks-bg: #d5e5fa;
+    --bg-color: #f9fafb;
+    --text-color: #000;
+    --nav-btn: #0d6efd;
+
+    --plyr-color-main: #1e3a8a; /* Тёмно-синий */
+    --plyr-video-controls-background: rgba(0, 0, 0, 0.6);
+    --plyr-video-control-color: #ffffff;
+}
+
+:root[data-theme="dark"] {
+    --blocks-bg: #1F2937;
+    --bg-color: #111827;
+    --text-color: #fff;
+    --nav-btn: #0d6efd;
+
+    --plyr-color-main: #3b82f6; /* Ярко-синий */
+    --plyr-video-controls-background: rgba(255, 255, 255, 0.1);
+    --plyr-video-control-color: #ffffff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background 0.3s, color 0.3s;
+}

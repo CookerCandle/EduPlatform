@@ -1,0 +1,41 @@
+.main-nav {
+  background-color: var(--blocks-bg);
+  color: var(--text-color);
+}
+
+.logo {
+  font-weight: 600;
+  font-family: "Delius Unicase", cursive;
+  color: var(--text-color);
+}
+
+.main-nav-link {
+  font-size: 20px;
+  color: var(--text-color);
+}
+
+.main-nav-link:hover {
+  color: #627180;
+}
+
+.active-link,
+.active-link:hover {
+  border-bottom: solid 2px var(--nav-btn);
+  color: var(--nav-btn);
+}
+
+@media (max-width: 768px) {
+  .main-nav-link {
+    color: var(--text-color);
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    border-radius: 45%;
+  }
+
+  .active-link {
+    color: var(--nav-btn);
+    border-bottom: 2px groove var(--nav-btn);
+    transform: scale(1.05);
+  }
+}

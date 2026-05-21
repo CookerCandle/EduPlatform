@@ -1,0 +1,11 @@
+.plyr--video {
+    /* border-radius: 1rem; */
+    overflow: hidden;
+}
+
+/* Добавим немного адаптивности */
+video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

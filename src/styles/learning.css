@@ -1,0 +1,12 @@
+.lesson-block {
+    background-color: var(--blocks-bg);
+    cursor: pointer;
+}
+.lessons {
+    padding: 5px;
+    border: var(--blocks-bg) solid 1px ;
+    max-height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 10px;
+}
