@@ -1,0 +1,23 @@
+/* Кнопка переключателя */
+.toggle-theme {
+    background: none;
+    border: solid 1px #fff;
+    cursor: pointer;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+}
+
+.theme-button {
+    font-size:larger;
+    color: var(--text-color);
+    border-color: var(--text-color);
+    border-radius: 8px;
+}
+
+.theme-button:hover {
+    transition: width 0.3s ease;
+    background-color: var(--link-hover);
+}

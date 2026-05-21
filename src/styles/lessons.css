@@ -1,0 +1,23 @@
+.li-lesson {
+  background-color: rgba(250, 250, 250, 0.416);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.li-lesson:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.li-task {
+  background-color: rgba(250, 250, 250, 0.416);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+}
+
+.passed {
+  background-color: rgba(250, 250, 250, 0.416);
+  color: green !important;
+  cursor: default !important;
+  pointer-events: none;
+  opacity: 0.8;
+}
